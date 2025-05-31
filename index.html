@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Menu</title>
+  <style>
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #001f3f;  /* Dark navy blue */
+  color: #fffde7;             /* Off-white with a slight yellow tint */
+  padding: 20px;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 250px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 300px;
+    width: 90%;
+  }
+}
+
+h1, h2 {
+  color: #FFD700; /* Bright yellow */
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #000; /* subtle shadow for better contrast */
+}
+
+section {
+  margin-bottom: 40px;
+  border-left: 5px solid #2196F3; /* blue accent bar */
+  padding-left: 15px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.item-name {
+  font-weight: bold;
+  color: #FFC107; /* softer yellow */
+}
+
+.item-desc {
+  color: #BBDEFB; /* light blue */
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <img src="C:/Users/user/Desktop/Work/Mashrou3 burger/Icon-no-background.png">
+  <h1>Restaurant Menu</h1>
+
+  <section>
+    <h2>Burgers</h2>
+    <div class="item">
+      <div class="item-name">Mango Shocks</div>
+      <div class="item-desc">Chicken, sour garlic mayo, devil mango mayo, mango slices, jalapeno, red onion, Swiss cheese, baby rocca</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Shrimp Burger</div>
+      <div class="item-desc">Shrimp pane, sauce, iceberg, pickles</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Truffle Burger</div>
+      <div class="item-desc">Beef patty, truffle mayo, baby rocca, truffle cheese balls, Swiss cheese, caramelized onion, mushroom</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Swiss Mushroom</div>
+      <div class="item-desc">Steak patty, caramelized onion, fresh cream, Swiss cheese, plain cheese balls, mushroom</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Veins Destroyer Burger</div>
+      <div class="item-desc">Beef patty, sauce, BBQ sauce, jalapenos, cheddar, bacon, pepperoni, chorizo</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sandwiches</h2>
+    <div class="item">
+      <div class="item-name">Steak Sandwich</div>
+      <div class="item-desc">Marinated steak, mushroom sauce, mozzarella, parmesan, baby rocca</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Caesar Sandwich</div>
+      <div class="item-desc">Grilled chicken, Caesar sauce, parmesan, iceberg, pickles, crouton crumbs</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Salads</h2>
+    <div class="item">
+      <div class="item-name">Beet Avocado Chicken Salad</div>
+      <div class="item-desc">Grilled chicken, sauce, lettuce, beetroot, avocado, parmesan, pickles, cherry tomato</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Steak Mushroom Salad</div>
+      <div class="item-desc">Steak rocca, cherry tomato, fresh mushroom, parmesan, balsamic sauce</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Tuna Salad</div>
+      <div class="item-desc">Pasta, tuna, iceberg, carrot, cucumber, lemon mayo, cherry tomato</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Crab Salad</div>
+      <div class="item-desc">Crab, pasta, edamame seeds, pineapple, strawberry, honey mustard, iceberg, carrot, cucumber, cherry tomato</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Appetizers</h2>
+    <div class="item">
+      <div class="item-name">Tenders</div>
+      <div class="item-desc">Breaded tenders, honey mustard</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Dynamite Shrimps</div>
+      <div class="item-desc">Breaded shrimp, dynamite sauce</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Jalapeno Cheese Balls</div>
+      <div class="item-desc">Breaded jalapeno cheese balls, BBQ sauce</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Dirty Fries</div>
+      <div class="item-desc">Fries, tenders, pepperoni, sauce, jalapeno cheese balls, cheddar sauce, chorizo</div>
+    </div>
+    <div class="item">
+      <div class="item-name">Wings</div>
+      <div class="item-desc">Wings & wings sauce</div>
+    </div>
+  </section>
+</body>
+</html>
